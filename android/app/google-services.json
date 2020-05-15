@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "747691333334",
+    "firebase_url": "https://solotravel-659b4.firebaseio.com",
+    "project_id": "solotravel-659b4",
+    "storage_bucket": "solotravel-659b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747691333334:android:ad39daebd0893fdf5a1b77",
+        "android_client_info": {
+          "package_name": "link.solotravel.android.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747691333334-bpqn22r9qij9t667h0jj8g486vv7jfqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "link.solotravel.android.test",
+            "certificate_hash": "2d19ba1a59059fae6f15655ea44b13a43fbdd4ea"
+          }
+        },
+        {
+          "client_id": "747691333334-r9fc0l0sfklvjk5tppq4jflv2v5nv9pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyi2l4CMq_4YOKoZEnB_XYYp0Tj2rznhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747691333334-r9fc0l0sfklvjk5tppq4jflv2v5nv9pj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "747691333334-2ou6i8imtsrnlcomh1ubnhs3d5oth28r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "link.solotravel.ios.test"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
