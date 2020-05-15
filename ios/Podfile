@@ -1,14 +1,6 @@
 platform :ios, '10.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-# Override Firebase SDK Version
-$FirebaseSDKVersion = '6.8.1'
-
-# Override Fabric SDK Version
-$FabricSDKVersion = '1.6.0'
-
-# Override Crashlytics SDK Version
-$CrashlyticsSDKVersion = '3.1.0'
 
 def add_flipper_pods!(versions = {})
   versions['Flipper'] ||= '~> 0.33.1'
@@ -43,11 +35,9 @@ def add_flipper_pods!(versions = {})
 
   # Add the Firebase pod for Google Analytics
   pod 'Firebase/Analytics'
-
-  # Add the pods for any other Firebase products you want to use in your app
-  # For example, to use Firebase Authentication and Cloud Firestore
-  pod 'Firebase/Auth','~>6.8.1'
+  pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod 'TwitterKit'
 
 end
 
